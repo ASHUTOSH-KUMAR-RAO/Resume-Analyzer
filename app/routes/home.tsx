@@ -54,7 +54,7 @@ export default function Home() {
           <h1>Monitor Your Job Application Success</h1>
           {!loadingResumes && resumes.length === 0 ? (
             <h2>
-              No Resume Fount.Upload Your Resume First,then get your feedback
+              No Resume Found.Upload Your Resume First,then get your feedback
             </h2>
           ) : (
             <h2>✨ Review Submission & Receive AI-Powered Insights</h2>
